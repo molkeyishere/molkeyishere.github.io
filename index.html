@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mulkiy - Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.4-web\css\all.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="galery.html"><i class="fas fa-image"></i> Galeri</a>
+                <a href="#"><i class="fas fa-user-circle"></i> Social Media</a>
+                <a href="#"><i class="fas fa-address-card"></i> About Me</a>
+                <a href="#" id="darkmode" onclick="darkMode()" style="float: right;"><i class="fas fa-sun"></i> / <i class="fas fa-moon"></i></a>
+            </div>
+            <font size="9" color="#d534eb" style="float: center;">Mulkiy Galery</font>
+            <br>
+            <font size="4" color="#d534eb" style="float: center;">Met datang bang, Saya upload foto foto disini :3</font>
+            <hr>
+            <font size="6" color="#ff85e9" style="text-decoration: none;letter-spacing: 4px;text-transform: uppercase;">Highlights foto</font>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numertext">1 / 3</div>
+                    <img src="images/DSC_0085.JPG" style="width: 80%;">
+                    <div class="text">Daun di jalanan</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numertext">2 / 3</div>
+                    <img src="images/DSC_0092.JPG" style="width: 80%;">
+                    <div class="text">Masjid agung Sangatta dari samping</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numertext">3 / 3</div>
+                    <img src="images/DSC_0082.JPG" style="width: 80%;">
+                    <div class="text">Salah satu jalan di Bukit Pelangi Sangatta</div>
+                </div>
+
+                <a class="prev" onclick="pluSlide(-1)>10094"></a>
+                <a class="next" onclick="pluSlide(1)>10095"></a>
+            </div>
+            <br>
+
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <a href="#"><button class="select"><i class="fas fa-home"></i> Home</button></a>
+            <a href="#"><button class="select"><i class="fas fa-image"></i> Galeri</button></a>
+            <a href="#"><button class="select"><i class="fas fa-user-circle"></i> Social Me</button></a>
+            <a href="#"><button class="select"><i class="fas fa-address-card"></i> About Me</button></a>
+            <br>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
